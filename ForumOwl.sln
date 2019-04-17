@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForumOwl", "ForumOwl\ForumO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumOwl.Data", "ForumOwl.Data\ForumOwl.Data.csproj", "{1E858AF8-A5DD-4D85-8E51-C7BAB59395D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumOwl.Service", "ForumOwl.Service\ForumOwl.Service.csproj", "{0CF8CBA8-E24E-4BA5-94A4-CC34DD0E0941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E858AF8-A5DD-4D85-8E51-C7BAB59395D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E858AF8-A5DD-4D85-8E51-C7BAB59395D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E858AF8-A5DD-4D85-8E51-C7BAB59395D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF8CBA8-E24E-4BA5-94A4-CC34DD0E0941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF8CBA8-E24E-4BA5-94A4-CC34DD0E0941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF8CBA8-E24E-4BA5-94A4-CC34DD0E0941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF8CBA8-E24E-4BA5-94A4-CC34DD0E0941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
