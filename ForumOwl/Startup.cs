@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ForumOwl.Data;
 using ForumOwl.Services;
 using ForumOwl.Data.Models;
+using ForumOwl.Service;
 
 namespace ForumOwl
 {
@@ -31,6 +32,7 @@ namespace ForumOwl
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.AddScoped<IForum, ForumService>();
 
             services.AddMvc();
         }

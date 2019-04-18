@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ForumOwl.Data\ForumOwl.Data.csproj" />
+    <ProjectReference Include="..\ForumOwl.Service\ForumOwl.Service.csproj" />
   </ItemGroup>
 
 </Project>
